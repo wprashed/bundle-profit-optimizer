@@ -1,0 +1,73 @@
+.bpo-wrap .bpo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.bpo-wrap .bpo-card {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.bpo-wrap .bpo-muted {
+  background: #f7f7f7;
+}
+
+.bpo-wrap .bpo-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.bpo-wrap .bpo-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bpo-wrap .bpo-field input {
+  width: 100%;
+}
+
+.bpo-wrap .bpo-field small {
+  color: #646970;
+}
+
+.bpo-wrap .bpo-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.bpo-wrap .bpo-result-card {
+  border-left: 4px solid #2271b1;
+}
+
+.bpo-wrap .bpo-recommendation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.bpo-wrap .bpo-kpi-label {
+  display: block;
+  color: #646970;
+  margin-bottom: 4px;
+}
+
+.bpo-wrap .bpo-recommendation strong {
+  font-size: 1.1rem;
+}
+
+.bpo-wrap .bpo-best-row {
+  background: #e7f5ff;
+}
+
+.bpo-wrap .bpo-table td,
+.bpo-wrap .bpo-table th {
+  vertical-align: middle;
+}
