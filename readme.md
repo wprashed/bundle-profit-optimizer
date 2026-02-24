@@ -2,11 +2,6 @@
 
 Recommend the best WooCommerce bundle price to maximize expected margin per visitor.
 
-## Author
-- **Name:** Rashed Hossain
-- **URL:** [https://rashed.im/](https://rashed.im/)
-- **WordPress.org Username:** `wprashed`
-
 ## Overview
 Bundle Profit Optimizer is a WooCommerce admin tool that models pricing scenarios for product bundles and recommends the discount/price combination with the highest expected margin per visitor.
 
